@@ -1,0 +1,24 @@
+<launch>
+
+  <arg name="calibration_file" default="$(find cil_slam)/config/config.yaml"/>
+
+  <!-- Lk Feature Tracker Node  -->
+  <!--
+  <node pkg="cil_slam" type="feature_tracker" name="feature_tracker" output="screen">
+      <rosparam command="load" file="$(arg calibration_file)"/>
+  </node>
+  -->
+
+  <!-- Line Feature Tracker Node  -->
+  <!--
+  <node pkg="cil_slam" type="line_feature_tracker" name="line_feature_tracker" output="screen">
+      <rosparam command="load" file="$(arg calibration_file)"/>
+  </node>
+  -->
+
+  <!-- Visual Tracker Node  -->
+  <node pkg="cil_slam" type="visual_tracker" name="visual_tracker" output="screen">
+      <rosparam command="load" file="$(arg calibration_file)"/>
+  </node>
+
+</launch>

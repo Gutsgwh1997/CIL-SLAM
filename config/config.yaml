@@ -1,0 +1,31 @@
+# 公共参数
+common:
+    imu_topic: "/kitti/oxts/imu"
+    # image_topic: "/front_image_6mm"
+    image_topic: "/kitti/camera_color_left/image_raw"
+    lidar_topic: "/kitti/velo/pointcloud"
+# 相机的内参
+cam:
+    camera_model: pinhole
+    distortion_model: radtan
+    resolution: [1241, 376]   # [Cols,Rows]; [fx, fy, cx, cy]; [k1, k2, p1, p2]
+    intrinsics: [7.188560000000e+02, 6.071928000000e+02, 7.188560000000e+02, 1.852157000000e+02]
+    distortion_coeffs: [0, 0, 0, 0]
+
+# LK光流跟踪相关参数
+point_tracker:
+    max_cnt: 500             # max feature number in feature tracking
+    min_dist: 30             # min distance between two features 
+    F_threshold: 1.0         # ransac threshold (pixel)
+    equalize: 1              # if image is too dark or light, trun on equalize to find enough features
+
+# LSD线段检测相关参数
+line_tracker:
+    max_cnt: 300                  # number of LSD lines detected (set to 0 if keeping all lines)
+    scale: 2                      # scale of the image that will be used to find the lines
+    octaves: 2                    # number of octaves inside pyramid
+    max_match_distance: 30        # lbd good matches
+    min_line_length: 30           # min line length 
+    line_link_diff_distance: 8    # LSD线段提取link时的距离阈值(像素)，这个值必须小于min_line_length
+    line_link_diff_angle: 5       # LSD线段提取link时的角度阈值(度)
+    line_merge_diff_distance: 15  # LSD线段提取merge时的角度阈值(像素)
