@@ -1,57 +1,72 @@
 [
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam",
-  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/line_feature_tracker.dir/src/linefeature_tracker.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/linefeature_tracker.cc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/visual_tracker.dir/src/visual_node.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/visual_node.cc",
+  "file": "/home/gwh/catkin_test/src/cil-slam/src/visual_node.cc"
+},
+{
+  "directory": "/home/gwh/catkin_test/build/cil_slam",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/visual_tracker.dir/src/feature_tracker.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/feature_tracker.cc",
+  "file": "/home/gwh/catkin_test/src/cil-slam/src/feature_tracker.cc"
+},
+{
+  "directory": "/home/gwh/catkin_test/build/cil_slam",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/visual_tracker.dir/src/linefeature_tracker.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/linefeature_tracker.cc",
   "file": "/home/gwh/catkin_test/src/cil-slam/src/linefeature_tracker.cc"
 },
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam",
-  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/line_feature_tracker.dir/src/linefeature_tracker_node.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/linefeature_tracker_node.cc",
-  "file": "/home/gwh/catkin_test/src/cil-slam/src/linefeature_tracker_node.cc"
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/line_feature_tracker.dir/test/linefeature_tracker_node.cc.o -c /home/gwh/catkin_test/src/cil-slam/test/linefeature_tracker_node.cc",
+  "file": "/home/gwh/catkin_test/src/cil-slam/test/linefeature_tracker_node.cc"
 },
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam",
-  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/feature_tracker.dir/src/feature_tracker_node.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/feature_tracker_node.cc",
-  "file": "/home/gwh/catkin_test/src/cil-slam/src/feature_tracker_node.cc"
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/line_feature_tracker.dir/src/linefeature_tracker.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/linefeature_tracker.cc",
+  "file": "/home/gwh/catkin_test/src/cil-slam/src/linefeature_tracker.cc"
 },
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam",
-  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/feature_tracker.dir/src/feature_tracker.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/feature_tracker.cc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/feature_tracker.dir/test/feature_tracker_node.cc.o -c /home/gwh/catkin_test/src/cil-slam/test/feature_tracker_node.cc",
+  "file": "/home/gwh/catkin_test/src/cil-slam/test/feature_tracker_node.cc"
+},
+{
+  "directory": "/home/gwh/catkin_test/build/cil_slam",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cil_slam\\\" -I/home/gwh/catkin_test/devel/.private/cil_slam/include -I/home/gwh/catkin_test/src/cil-slam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/local/include/eigen3  -std=c++11 -march=native -O3   -o CMakeFiles/feature_tracker.dir/src/feature_tracker.cc.o -c /home/gwh/catkin_test/src/cil-slam/src/feature_tracker.cc",
   "file": "/home/gwh/catkin_test/src/cil-slam/src/feature_tracker.cc"
 },
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam/gtest",
-  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
   "file": "/usr/src/gtest/src/gtest-all.cc"
 },
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam/gtest",
-  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
   "file": "/usr/src/gmock/src/gmock-all.cc"
 },
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam/gtest",
-  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
-  "file": "/usr/src/gtest/src/gtest-all.cc"
-},
-{
-  "directory": "/home/gwh/catkin_test/build/cil_slam/gtest",
-  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
-  "file": "/usr/src/gmock/src/gmock-all.cc"
-},
-{
-  "directory": "/home/gwh/catkin_test/build/cil_slam/gtest",
-  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
   "file": "/usr/src/gmock/src/gmock_main.cc"
 },
 {
+  "directory": "/home/gwh/catkin_test/build/cil_slam/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/gwh/catkin_test/build/cil_slam/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
   "directory": "/home/gwh/catkin_test/build/cil_slam/gtest/gtest",
-  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
   "file": "/usr/src/gtest/src/gtest-all.cc"
 },
 {
   "directory": "/home/gwh/catkin_test/build/cil_slam/gtest/gtest",
-  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -std=c++11 -march=native -O3 -fPIC   -std=c++11 -march=native -O3 -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
   "file": "/usr/src/gtest/src/gtest_main.cc"
 }
 ]

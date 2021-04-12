@@ -52,21 +52,24 @@ include_directories(
   ${EIGEN3_INCLUDE_DIR}
 )
 
-add_executable(feature_tracker
-    src/feature_tracker_node.cc
-    src/feature_tracker.cc
-    )
-target_link_libraries(feature_tracker ${catkin_LIBRARIES} ${OpenCV_LIBS})
-
-add_executable(line_feature_tracker
-    src/linefeature_tracker.cc
-    src/linefeature_tracker_node.cc
-    )
-target_link_libraries(line_feature_tracker ${catkin_LIBRARIES} ${OpenCV_LIBS})
-
 add_executable(visual_tracker
     src/visual_node.cc
     src/feature_tracker.cc
     src/linefeature_tracker.cc
     )
 target_link_libraries(visual_tracker ${catkin_LIBRARIES} ${OpenCV_LIBS})
+
+#######
+# Test
+#######
+add_executable(feature_tracker
+    test/feature_tracker_node.cc
+    src/feature_tracker.cc
+    )
+target_link_libraries(feature_tracker ${catkin_LIBRARIES} ${OpenCV_LIBS})
+
+add_executable(line_feature_tracker
+    test/linefeature_tracker_node.cc
+    src/linefeature_tracker.cc
+    )
+target_link_libraries(line_feature_tracker ${catkin_LIBRARIES} ${OpenCV_LIBS})
