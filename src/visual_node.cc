@@ -5,6 +5,7 @@
  * @version 0.1
  * @date 2021-04-07 20:54:52
  */
+#include "ros/console_backend.h"
 #include <iostream>
 #include <queue>
 #include <mutex>
@@ -102,6 +103,7 @@ cil_slam::ImgInfo GetMeasurements() {
         return imgInfo;
     }
     if (pointFeatureBuff_.front().header.stamp.toNSec() == lineFeatureBuff_.front().header.stamp.toNSec()) {
+        imgInfo.header = pointFeatureBuff_.front().header;
         imgInfo.rawImg = *(imgBuff_.front());
         imgInfo.featurePoints = pointFeatureBuff_.front();
         imgInfo.featureLines = lineFeatureBuff_.front();
@@ -138,7 +140,7 @@ void Process() {
 int main(int argc, char *argv[]) {
     ros::init(argc, argv, "visual__tracker");
     ros::NodeHandle n("~");
-    ros::console::set_logger_level(ROSCONSOLE_DEFAULT_NAME, ros::console::levels::Debug);
+    ros::console::set_logger_level(ROSCONSOLE_DEFAULT_NAME, ros::console::levels::Info);
 
     featureTrackerPtr.reset(new FeatureTracker(n));
     lineTrackerPtr.reset(new LineFeatureTracker(n));
